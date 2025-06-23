@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/taskBack">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/taskInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/taskT"
+            android:layout_marginTop="20dp"
+            android:text="@string/addTask" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:text="@string/addTaskBtn"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/backBtn"
+            android:textColor="@color/btn" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="234dp" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="520dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="250dp"
+            android:background="?android:attr/listDivider" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:layout_marginTop="-290dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/tlist_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="68dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="-25dp"
+            app:srcCompat="@drawable/alarmm" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="47dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="-55dp"
+            app:srcCompat="@drawable/oip_removebg_preview__1_" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="48dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-50dp"
+            app:srcCompat="@drawable/download_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="55dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-50dp"
+            app:srcCompat="@drawable/oip__1__removebg_preview" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

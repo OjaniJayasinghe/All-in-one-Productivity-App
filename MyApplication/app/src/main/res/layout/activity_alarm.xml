@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/sett"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="-130dp">
+
+        <TextView
+            android:id="@+id/tvAlarmStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="212dp"
+            android:text="@string/noAlarm"
+            android:textColor="@color/taskT"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.463"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSetAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="338dp"
+            android:layout_marginEnd="-40dp"
+            android:layout_marginBottom="100dp"
+            android:contentDescription="Set Alarm"
+            android:src="@android:drawable/ic_lock_idle_alarm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnDeleteAlarm"
+            app:tint="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnDeleteAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="@color/backBtn"
+            android:text="@string/deleteAlarm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlarmStatus" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="409dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="-30dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fabSetAlarm"
+            app:layout_constraintVertical_bias="0.642"
+            android:backgroundTint="@color/coloo"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="274dp"
+            android:layout_height="173dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.028"
+            app:srcCompat="@drawable/alarmset" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="63dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="-130dp"
+            android:layout_marginTop="465dp"
+            android:layout_marginBottom="9dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.485"
+            app:layout_constraintStart_toEndOf="@+id/divider"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/alarmm" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="49dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="110dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fabSetAlarm"
+            app:layout_constraintVertical_bias="0.366"
+            app:srcCompat="@drawable/download_removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="54dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="115dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/fabSetAlarm"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/oip_removebg_preview__1_" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="64dp"
+            android:layout_height="58dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fabSetAlarm"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/oip__1__removebg_preview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

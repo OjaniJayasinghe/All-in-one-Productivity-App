@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#D5F2F6</color>
+    <color name="taskBack">#9FB5B8</color>
+    <color name="btn">#283032</color>
+    <color name="taskT">#253B3D</color>
+    <color name="backBtn">#6A8ADC</color>
+    <color name="timerbtn">#253B46</color>
+    <color name="stopTimer">#435687</color>
+    <color name="coloo">#2C2D31</color>
+    <color name="sett">#929FBF</color>
+    <color name="timerr">#ACB3C6</color>
+</resources>

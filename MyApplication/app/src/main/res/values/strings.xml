@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username">username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="home">Welcome to ARI3 DOCKET</string>
+    <string name="goTask">Task List</string>
+    <string name="addTask">Enter a task</string>
+    <string name="addTaskBtn">Add Task</string>
+    <string name="setAlarm">Set Alarm</string>
+    <string name="timer">Set Timer</string>
+    <string name="cancel">Cancel</string>
+    <string name="start">Start</string>
+    <string name="minutes">MM</string>
+    <string name="seconds">SS</string>
+    <string name="dot"> : </string>
+    <string name="time">00:00:00</string>
+    <string name="noAlarm">No alarm set</string>
+    <string name="deleteAlarm">Delete Alarm</string>
+    <string name="ring">Wake Up!</string>
+    <string name="stop">Stop Alarm</string>
+</resources>

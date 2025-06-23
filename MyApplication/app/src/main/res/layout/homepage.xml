@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="@string/home"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/taskListButton"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/backBtn"
+            android:text="@string/goTask"
+            android:textColor="@color/btn" />
+
+        <Button
+            android:id="@+id/alarmButton"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/backBtn"
+            android:text="@string/setAlarm"
+            android:textColor="@color/btn" />
+
+        <Button
+            android:id="@+id/timerButton"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/backBtn"
+            android:text="@string/timer"
+            android:textColor="@color/btn" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="309dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="400dp"
+            android:textColor="@color/btn"
+            android:text="Set your personal Task Lists, Alarm and timer to manage the day-to-day works with your busy shedule in our app" />
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="-190dp"
+            android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/coloo" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="75dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="40dp"
+            app:srcCompat="@drawable/oip_removebg_preview__1_" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="69dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="-50dp"
+            android:layout_marginLeft="130dp"
+            app:srcCompat="@drawable/alarmm" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-130dp"
+            android:layout_marginTop="-62dp"
+            app:srcCompat="@drawable/oip__1__removebg_preview" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="71dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="-55dp"
+            android:layout_marginLeft="-45dp"
+            app:srcCompat="@drawable/download_removebg_preview" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
